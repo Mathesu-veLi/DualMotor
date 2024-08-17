@@ -1,5 +1,5 @@
 # Class constructor
-TwoMotors KEYWORD1
+DualMotor KEYWORD1
 
 # Method to set the motor 1 pins
 setMotor1 KEYWORD2
