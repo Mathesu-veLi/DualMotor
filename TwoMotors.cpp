@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <TwoMotors.h>
-#include <Motor.h>
+#include <Motor/Motor.h>
 
 TwoMotors::TwoMotors()
 {

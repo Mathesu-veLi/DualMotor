@@ -1,6 +1,9 @@
 #ifndef TWOMOTORS_H_INCLUDED
 #define TWOMOTORS_H_INCLUDED
 
+#include <Arduino.h>
+#include <Motor/Motor.h>
+
 class TwoMotors
 {
 private:
