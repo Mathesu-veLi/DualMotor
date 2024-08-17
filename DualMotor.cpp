@@ -12,65 +12,65 @@ DualMotor::DualMotor(int defaultSpeed)
   this->defaultSpeed = defaultSpeed;
 }
 
-DualMotor::setMotor1(int pinL, int pinR)
+void DualMotor::setMotor1(int pinL, int pinR)
 {
   motor1 = new Motor(pinL, pinR, defaultSpeed);
 }
 
-DualMotor::setMotor2(int pinL, int pinR)
+void DualMotor::setMotor2(int pinL, int pinR)
 {
   motor2 = new Motor(pinL, pinR, defaultSpeed);
 }
 
-DualMotor::forward()
+void DualMotor::forward()
 {
   motor1->forward();
   motor2->forward();
 }
 
-DualMotor::forward(int speed)
+void DualMotor::forward(int speed)
 {
   motor1->forward(speed);
   motor2->forward(speed);
 }
 
-DualMotor::left()
+void DualMotor::left()
 {
   motor1->back();
   motor2->forward();
 }
 
-DualMotor::left(int speed)
+void DualMotor::left(int speed)
 {
   motor1->back(speed);
   motor2->forward(speed);
 }
 
-DualMotor::right()
+void DualMotor::right()
 {
   motor1->forward();
   motor2->back();
 }
 
-DualMotor::right(int speed)
+void DualMotor::right(int speed)
 {
   motor1->forward(speed);
   motor2->back(speed);
 }
 
-DualMotor::back()
+void DualMotor::back()
 {
   motor1->back();
   motor2->back();
 }
 
-DualMotor::back(int speed)
+void DualMotor::back(int speed)
 {
   motor1->back(speed);
   motor2->back(speed);
 }
 
-DualMotor::stop()
+void DualMotor::stop()
 {
   motor1->stop();
   motor2->stop();
