@@ -32,3 +32,5 @@ public:
 
   void stop();
 };
+
+#endif
