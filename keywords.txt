@@ -1,0 +1,23 @@
+# Class constructor
+TwoMotors KEYWORD1
+
+# Method to set the motor 1 pins
+setMotor1 KEYWORD2
+
+# Method to set the motor 2 pins
+setMotor2 KEYWORD3
+
+# Method to make the motors go to forward
+forward KEYWORD4
+
+# Method to make the motors go to left
+left KEYWORD5
+
+# Method to make the motors go to right
+right KEYWORD6
+
+# Method to make the motors go to back
+back KEYWORD7
+
+# Method to make the motors stop
+stop KEYWORD8
