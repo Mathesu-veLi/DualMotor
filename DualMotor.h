@@ -1,14 +1,14 @@
-#ifndef DUALMOTOR_H_INCLUDED
-#define DUALMOTOR_H_INCLUDED
+#ifndef DUALMOTOR_H
+#define DUALMOTOR_H
 
 #include <Arduino.h>
-#include <Motor/Motor.h>
+#include <utility/Motor.h>
 
 class DualMotor
 {
 private:
-  Motor *motor1;
-  Motor *motor2;
+  Motor* motor1;
+  Motor* motor2;
   int defaultSpeed;
 
 public:
