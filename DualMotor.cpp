@@ -71,3 +71,8 @@ void DualMotor::stop()
   motor1->stop();
   motor2->stop();
 }
+
+void DualMotor::custom(int motorLeftSpeed, int motorRightSpeed) {
+  motor1->forward(motorLeftSpeed);
+  motor2->forward(motorRightSpeed);
+}

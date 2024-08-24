@@ -18,19 +18,21 @@ public:
   void setMotor1(int pinL, int pinR);
   void setMotor2(int pinL, int pinR);
 
-  void forward();
   void forward(int speed);
+  void forward();
 
-  void left();
   void left(int speed);
+  void left();
 
-  void right();
   void right(int speed);
+  void right();
 
-  void back();
   void back(int speed);
+  void back();
 
   void stop();
+  
+  void custom(int motorLeftSpeed, int motorRightSpeed);
 };
 
 #endif
