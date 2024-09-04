@@ -7,16 +7,16 @@
 class DualMotor
 {
 private:
-  Motor* motor1;
-  Motor* motor2;
+  Motor* motorL;
+  Motor* motorR;
   int defaultSpeed;
 
 public:
   DualMotor();
   DualMotor(int defaultSpeed);
 
-  void setMotor1(int pinL, int pinR);
-  void setMotor2(int pinL, int pinR);
+  void setMotorL(int pinL, int pinR);
+  void setMotorR(int pinL, int pinR);
 
   void forward(int speed);
   void forward();
