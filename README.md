@@ -3,9 +3,8 @@
 A high-level wrapper for controlling dual motor systems like robotic cars. Built on top of the Motor library.
 
 ## 📦 Installation
-1. Ensure you have the base `Motor.h` library installed
-2. ⬇️ Download `DualMotor.h` and `DualMotor.cpp`
-3. 📂 Place in your Arduino libraries folder
+2. ⬇️ Download the DualMotors.zip in the releases
+3. 📂 Extract in your Arduino libraries folder
 4. ➕ Include in your sketch: 
 ```cpp
 #include <DualMotor.h>
