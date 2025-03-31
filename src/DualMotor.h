@@ -16,7 +16,9 @@ public:
   DualMotor(int defaultSpeed);
 
   void setMotorL(int pinL, int pinR);
+  void setMotorL(int pinL, int pinR, int pwm);
   void setMotorR(int pinL, int pinR);
+  void setMotorR(int pinL, int pinR, int pwm);
 
   void forward(int speed);
   void forward();
